@@ -14,7 +14,7 @@
 // COMMAND ----------
 
 val storageAccount = "bhoomisa"
-val storageAccountKey= spark.conf.get("spark.hadoop.fs.azure.account.key." + storageAccount + "".blob.core.windows.net")
+val storageAccountKey= spark.conf.get("spark.hadoop.fs.azure.account.key." + storageAccount + ".blob.core.windows.net")
 
 // COMMAND ----------
 
